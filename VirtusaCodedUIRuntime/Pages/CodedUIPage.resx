@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+   </data>
+   <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+       <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+       <comment>This is a comment</comment>
+   </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+ <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+   <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+   <xsd:element name="root" msdata:IsDataSet="true">
+     <xsd:complexType>
+       <xsd:choice maxOccurs="unbounded">
+         <xsd:element name="metadata">
+           <xsd:complexType>
+             <xsd:sequence>
+               <xsd:element name="value" type="xsd:string" minOccurs="0" />
+             </xsd:sequence>
+             <xsd:attribute name="name" use="required" type="xsd:string" />
+             <xsd:attribute name="type" type="xsd:string" />
+             <xsd:attribute name="mimetype" type="xsd:string" />
+             <xsd:attribute ref="xml:space" />
+           </xsd:complexType>
+         </xsd:element>
+         <xsd:element name="assembly">
+           <xsd:complexType>
+             <xsd:attribute name="alias" type="xsd:string" />
+             <xsd:attribute name="name" type="xsd:string" />
+           </xsd:complexType>
+         </xsd:element>
+         <xsd:element name="data">
+           <xsd:complexType>
+             <xsd:sequence>
+               <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+               <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+             </xsd:sequence>
+             <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+             <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+             <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+             <xsd:attribute ref="xml:space" />
+           </xsd:complexType>
+         </xsd:element>
+         <xsd:element name="resheader">
+           <xsd:complexType>
+             <xsd:sequence>
+               <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+             </xsd:sequence>
+             <xsd:attribute name="name" type="xsd:string" use="required" />
+           </xsd:complexType>
+         </xsd:element>
+       </xsd:choice>
+     </xsd:complexType>
+   </xsd:element>
+ </xsd:schema>
+ <resheader name="resmimetype">
+   <value>text/microsoft-resx</value>
+ </resheader>
+ <resheader name="version">
+   <value>2.0</value>
+ </resheader>
+ <resheader name="reader">
+   <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+ </resheader>
+ <resheader name="writer">
+   <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+ </resheader>
+ <data name="UIWorkingPleasewaiPane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=resultsRightRail|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Colombo|AbsolutePath:=/shop/hotelsearch|PageUrl:=http://www.hotelclub.com/shop/hotelsearch?type=hotel&amp;hotel.type=keyword&amp;hotel.fid=&amp;hotel.coord=&amp;hotel.keyword.key=Colombo%2C+Sri+Lanka&amp;hotel.locId=loc.id%3A30265&amp;hotel.chkin=12%2F12%2F15&amp;hotel.chkout=25%2F12%2F15&amp;hotel.rooms%5B0%5D.adlts=2&amp;hotel.rooms%5B0%5D.chlds=0&amp;hotel.rooms%5B0%5D.chldAge%5B0%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B1%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B2%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B3%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B4%5D=&amp;hotel.rating=&amp;hotel.hname=&amp;hotel.couponCode=&amp;search=Search&amp;hsv.showDetails=true&amp;hotel.hid=339929&amp;hotel.hkey=339929_null_null_null_A2:0=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=interBody|#FILTER#|InnerText:=&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;   Working...   Please wai|Class:=interstitialA|ControlDefinition:=class=&quot;interstitialA&quot; id=&quot;interBody&quot;|TagInstance:=524=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|#FILTER#|InnerText:=&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;   Working...   Please wai|Class:=searchDetails|ControlDefinition:=tabindex=&quot;0&quot; class=&quot;searchDetails&quot;|TagInstance:=529</value>
+ </data>
+ <data name="UIWhereEdit" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=home|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Find Cheap Hotels &amp; Accommodation Deals with HotelClub.com|AbsolutePath:=/|PageUrl:=http://www.hotelclub.com/=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Edit|TagName:=INPUT|Id:=f1c035409b5a6d109377c25058315f69|Name:=hotel.keyword.key|#FILTER#|LabeledBy:=Where  |Type:=SINGLELINE|ControlDefinition:=name=&quot;hotel.keyword.key&quot; id=&quot;f1c035409b5|TagInstance:=7</value>
+ </data>
+ <data name="UIRamadaColomboRoomsRaPane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=resultsRightRail|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Colombo|AbsolutePath:=/shop/hotelsearch|PageUrl:=http://www.hotelclub.com/shop/hotelsearch?type=hotel&amp;hotel.type=keyword&amp;hotel.fid=&amp;hotel.coord=&amp;hotel.keyword.key=Colombo%2C+Sri+Lanka&amp;hotel.locId=loc.id%3A30265&amp;hotel.chkin=12%2F12%2F15&amp;hotel.chkout=25%2F12%2F15&amp;hotel.rooms%5B0%5D.adlts=2&amp;hotel.rooms%5B0%5D.chlds=0&amp;hotel.rooms%5B0%5D.chldAge%5B0%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B1%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B2%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B3%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B4%5D=&amp;hotel.rating=&amp;hotel.hname=&amp;hotel.couponCode=&amp;search=Search&amp;hsv.showDetails=true&amp;hotel.hid=339929&amp;hotel.hkey=339929_null_null_null_A2:0=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=main|#FILTER#|InnerText:=Hotel Overview    Guest Reviews (5)     |ControlDefinition:=id=&quot;main&quot; data-context=&quot;main&quot;|TagInstance:=36=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|#FILTER#|InnerText:=Ramada Colombo Rooms &amp; Rates   View all |Class:=standaloneHotelHeader roomsRatesHeader|ControlDefinition:=class=&quot;standaloneHotelHeader roomsRatesHeader&quot;|TagInstance:=82</value>
+ </data>
+ <data name="UIContinueBooking2DoubHyperlink" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=resultsRightRail|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Colombo|AbsolutePath:=/shop/hotelsearch|PageUrl:=http://www.hotelclub.com/shop/hotelsearch?type=hotel&amp;hotel.type=keyword&amp;hotel.fid=&amp;hotel.coord=&amp;hotel.keyword.key=Colombo%2C+Sri+Lanka&amp;hotel.locId=loc.id%3A30265&amp;hotel.chkin=12%2F12%2F15&amp;hotel.chkout=25%2F12%2F15&amp;hotel.rooms%5B0%5D.adlts=2&amp;hotel.rooms%5B0%5D.chlds=0&amp;hotel.rooms%5B0%5D.chldAge%5B0%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B1%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B2%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B3%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B4%5D=&amp;hotel.rating=&amp;hotel.hname=&amp;hotel.couponCode=&amp;search=Search&amp;hsv.showDetails=true&amp;hotel.hid=339929&amp;hotel.hkey=339929_null_null_null_A2:0=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=main|#FILTER#|InnerText:=Hotel Overview    Guest Reviews (5)     |ControlDefinition:=id=&quot;main&quot; data-context=&quot;main&quot;|TagInstance:=36=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Hyperlink|TagName:=A|InnerText:= Continue Booking 2 Double bed non smoking room (US$112.00 local currency price per room)  |#FILTER#|AbsolutePath:=/shop/hotelsearch|Href:=http://www.hotelclub.com/shop/hotelsearch?hotel.rooms[0].chldAge[1]=&amp;hotel.rooms[0].chldAge[2]=&amp;hotel.rooms[0].chldAge[0]=&amp;hotel.couponCode=&amp;hotel.fid=&amp;hotel.rooms[0].adlts=2&amp;hotel.keyword.key=Colombo%2C+Sri+Lanka&amp;type=hotel&amp;hotel.chkin=12%2F12%2F15&amp;hotel.rooms[0].chlds=0&amp;hotel.hid=339929&amp;hotel.rooms[0].chldAge[3]=&amp;hotel.rooms[0].chldAge[4]=&amp;search=Search&amp;hotel.chkout=25%2F12%2F15&amp;hotel.rating=&amp;hotel.coord=&amp;hotel.type=keyword&amp;hotel.locId=loc.id%3A30265&amp;hotel.hname=&amp;selectKey=339929_null_null_null_A2%3A0&amp;userRate.price=USD%7C1652.00&amp;skipTripDetails=false|Class:=buttonLink link|ControlDefinition:=class=&quot;buttonLink link&quot; href=&quot;http://www|TagInstance:=28</value>
+ </data>
+ <data name="UIFindCheapHotelsAccomWindow" xml:space="preserve">
+  <value>Object:=BrowserWindow</value>
+ </data>
+ <data name="UIItemPane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=www.hotelclub.com - Traveller information|AbsolutePath:=/book/tripDetails|PageUrl:=https://www.hotelclub.com/book/tripDetails?execution=e1s2=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=main|#FILTER#|InnerText:=Who is travelling?         We will h|ControlDefinition:=id=&quot;main&quot; data-context=&quot;main&quot;|TagInstance:=34=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|#FILTER#||TagInstance:=45</value>
+ </data>
+ <data name="UILastnamesurnameEdit" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=www.hotelclub.com - Traveller information|AbsolutePath:=/book/tripDetails|PageUrl:=https://www.hotelclub.com/book/tripDetails?execution=e1s2=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Edit|TagName:=INPUT|Id:=c32c2b3106bebb0b829fd69b9581f983|Name:=models[&apos;travelersInput&apos;].travelers[0].name.lastName|#FILTER#|LabeledBy:=*Last name/surname |Type:=SINGLELINE|ControlDefinition:=name=&quot;models[&apos;travelersInput&apos;].travelers|TagInstance:=12</value>
+ </data>
+ <data name="UIGreatnewsYougetFREEcPane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=www.hotelclub.com - Traveller information|AbsolutePath:=/book/tripDetails|PageUrl:=https://www.hotelclub.com/book/tripDetails?execution=e1s2=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=preMain|#FILTER#|InnerText:=*required item      CHECKOUT - Traveller|ControlDefinition:=id=&quot;preMain&quot; data-context=&quot;bookingPreMain&quot;|TagInstance:=14=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|#FILTER#|InnerText:=Great news! You get FREE cancellation be|Class:=freeCancellation|ControlDefinition:=class=&quot;freeCancellation&quot; data-context=&quot;freeCancellationOnlyRoom&quot;|TagInstance:=20</value>
+ </data>
+ <data name="UIMRCustom" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=www.hotelclub.com - Traveller information|AbsolutePath:=/book/tripDetails|PageUrl:=https://www.hotelclub.com/book/tripDetails?execution=e1s2=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Custom|TagName:=LI|#FILTER#||InnerText:=Mr.|TagInstance:=35</value>
+ </data>
+ <data name="UIRamadaColomboHyperlink" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=resultsTwoColumn|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Colombo - Hotel Search Results - www.hotelclub.com|AbsolutePath:=/shop/home|PageUrl:=http://www.hotelclub.com/shop/home?type=hotel&amp;hotel.type=keyword&amp;hotel.fid=&amp;hotel.coord=&amp;hotel.keyword.key=Colombo%2C+Sri+Lanka&amp;hotel.locId=loc.id%3A30265&amp;hotel.chkin=12%2F12%2F15&amp;hotel.chkout=25%2F12%2F15&amp;hotel.rooms%5B0%5D.adlts=2&amp;hotel.rooms%5B0%5D.chlds=0&amp;hotel.rooms%5B0%5D.chldAge%5B0%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B1%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B2%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B3%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B4%5D=&amp;hotel.rating=&amp;hotel.hname=&amp;hotel.couponCode=&amp;search=Search=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=main|#FILTER#|InnerText:=var IntentMediaData = { submarket_id: &apos;3|ControlDefinition:=id=&quot;main&quot; data-context=&quot;main&quot;|TagInstance:=152=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Hyperlink|TagName:=A|InnerText:= Ramada Colombo |#FILTER#|AbsolutePath:=/shop/hotelsearch|Title:=Ramada Colombo|Href:=http://www.hotelclub.com/shop/hotelsearch?type=hotel&amp;hotel.type=keyword&amp;hotel.fid=&amp;hotel.coord=&amp;hotel.keyword.key=Colombo%2C+Sri+Lanka&amp;hotel.locId=loc.id%3A30265&amp;hotel.chkin=12%2F12%2F15&amp;hotel.chkout=25%2F12%2F15&amp;hotel.rooms%5B0%5D.adlts=2&amp;hotel.rooms%5B0%5D.chlds=0&amp;hotel.rooms%5B0%5D.chldAge%5B0%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B1%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B2%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B3%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B4%5D=&amp;hotel.rating=&amp;hotel.hname=&amp;hotel.couponCode=&amp;search=Search&amp;hsv.showDetails=true&amp;hotel.hid=339929&amp;hotel.hkey=339929_null_null_null_A2:0|Class:=hotelNameLink link|ControlDefinition:=title=&quot;Ramada Colombo&quot; class=&quot;hotelNameL|TagInstance:=14</value>
+ </data>
+ <data name="UIOrsigninusingHoorayCustom" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=www.hotelclub.com - Traveller information|AbsolutePath:=/book/tripDetails|PageUrl:=https://www.hotelclub.com/book/tripDetails?execution=e1s2=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=preMain|#FILTER#|InnerText:=*required item      CHECKOUT - Traveller|ControlDefinition:=id=&quot;preMain&quot; data-context=&quot;bookingPreMain&quot;|TagInstance:=14=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Custom|TagName:=LI|#FILTER#|Class:=socialLogin|ControlDefinition:=class=&quot;socialLogin&quot;|InnerText:=Or, sign in using:                Hooray|TagInstance:=2</value>
+ </data>
+ <data name="UIFeaturingcontemporarPane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=resultsRightRail|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Colombo|AbsolutePath:=/shop/hotelsearch|PageUrl:=http://www.hotelclub.com/shop/hotelsearch?type=hotel&amp;hotel.type=keyword&amp;hotel.fid=&amp;hotel.coord=&amp;hotel.keyword.key=Colombo%2C+Sri+Lanka&amp;hotel.locId=loc.id%3A30265&amp;hotel.chkin=12%2F12%2F15&amp;hotel.chkout=25%2F12%2F15&amp;hotel.rooms%5B0%5D.adlts=2&amp;hotel.rooms%5B0%5D.chlds=0&amp;hotel.rooms%5B0%5D.chldAge%5B0%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B1%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B2%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B3%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B4%5D=&amp;hotel.rating=&amp;hotel.hname=&amp;hotel.couponCode=&amp;search=Search&amp;hsv.showDetails=true&amp;hotel.hid=339929&amp;hotel.hkey=339929_null_null_null_A2:0=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=main|#FILTER#|InnerText:=Hotel Overview    Guest Reviews (5)     |ControlDefinition:=id=&quot;main&quot; data-context=&quot;main&quot;|TagInstance:=36=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|#FILTER#|InnerText:=Featuring contemporary accommodations se|Class:=preformatted descriptionOverview|ControlDefinition:=class=&quot;preformatted descriptionOverview&quot; data-agent=&apos;{&amp;#10;&amp;#9;&amp;#9;&quot;type&quot;:&quot;ScriptContent&quot;&amp;#10;&amp;#9;&amp;#9;   ,&quot;params&quot;:{&amp;#10;&amp;#9;&amp;#9;&amp;#9;&amp;#9;&amp;#9;&amp;#9;&amp;#9;&quot;content&quot;: &quot;&lt;a href=\&quot;#\&quot; class=\&quot;link\&quot; data-agent=\&quot;{\n\t\t&amp;amp;#034;type&amp;amp;#034;:&amp;amp;#034;EventMap&amp;amp;#034;\n\t\t   ,&amp;amp;#034;params&amp;amp;#034;:{\n\t\t\t\t\t\t\t&amp;amp;#034;click&amp;amp;#034;: {\n\t\t\t\t\t\t\t&amp;amp;#034;name&amp;amp;#034;: &amp;amp;#034;dialog:dialogInvalidate&amp;amp;#034;,\n\t\t\t\t\t\t\t&amp;amp;#034;context&amp;amp;#034;: &amp;amp;#034;document&amp;amp;#034;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t},{\n\t\t&amp;amp;#034;type&amp;amp;#034;:&amp;amp;#034;HideReveal&amp;amp;#034;,\n\t\t&amp;amp;#034;eventType&amp;amp;#034;:&amp;amp;#034;click&amp;amp;#034;,\n\t\t&amp;amp;#034;selectors&amp;amp;#034;:&amp;amp;#034;.expandedContent&amp;amp;#034;\n\t\t ,&amp;amp;#034;content&amp;amp;#034;:&amp;amp;#034;More&amp;amp;#034; ,&amp;amp;#034;swapContent&amp;amp;#034;:&amp;amp;#034;Less&amp;amp;#034;  ,&amp;amp;#034;parentClass&amp;amp;#034;:&amp;amp;#034;hotelDescriptionTruncated&amp;amp;#034;    \n\t}\&quot;&gt;null&lt;/a&gt;&quot;&amp;#10;&amp;#9;&amp;#9;&amp;#9;&amp;#9;&amp;#9;&amp;#9;}&amp;#10;&amp;#9;}&apos; itemprop=&quot;description&quot;|TagInstance:=79</value>
+ </data>
+ <data name="UICheckinddmmyyEdit" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=home|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Find Cheap Hotels &amp; Accommodation Deals with HotelClub.com|AbsolutePath:=/|PageUrl:=http://www.hotelclub.com/=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Edit|TagName:=INPUT|Id:=e2e244345ca779fb9ec3fb799ca7c3ba|Name:=hotel.chkin|#FILTER#|LabeledBy:=Check-in(dd/mm/yy) |Type:=SINGLELINE|ControlDefinition:=name=&quot;hotel.chkin&quot; id=&quot;e2e244345ca779fb9|TagInstance:=9</value>
+ </data>
+ <data name="UIFirstgivennamePane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=www.hotelclub.com - Traveller information|AbsolutePath:=/book/tripDetails|PageUrl:=https://www.hotelclub.com/book/tripDetails?execution=e1s2=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=main|#FILTER#|InnerText:=Who is travelling?         We will h|ControlDefinition:=id=&quot;main&quot; data-context=&quot;main&quot;|TagInstance:=34=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=SPAN|#FILTER#|InnerText:=*First/given name|Class:=labelText|ControlDefinition:=class=&quot;labelText&quot;|TagInstance:=24</value>
+ </data>
+ <data name="UIWwwhotelclubcomTraveDocument" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=www.hotelclub.com - Traveller information|AbsolutePath:=/book/tripDetails|PageUrl:=https://www.hotelclub.com/book/tripDetails?execution=e1s2</value>
+ </data>
+ <data name="UIColomboHotelSearchReDocument" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=resultsTwoColumn|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Colombo - Hotel Search Results - www.hotelclub.com|AbsolutePath:=/shop/home|PageUrl:=http://www.hotelclub.com/shop/home?type=hotel&amp;hotel.type=keyword&amp;hotel.fid=&amp;hotel.coord=&amp;hotel.keyword.key=Colombo%2C+Sri+Lanka&amp;hotel.locId=loc.id%3A30265&amp;hotel.chkin=12%2F12%2F15&amp;hotel.chkout=25%2F12%2F15&amp;hotel.rooms%5B0%5D.adlts=2&amp;hotel.rooms%5B0%5D.chlds=0&amp;hotel.rooms%5B0%5D.chldAge%5B0%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B1%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B2%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B3%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B4%5D=&amp;hotel.rating=&amp;hotel.hname=&amp;hotel.couponCode=&amp;search=Search</value>
+ </data>
+ <data name="UIPhonenumberWeonlycalEdit" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=www.hotelclub.com - Traveller information|AbsolutePath:=/book/tripDetails|PageUrl:=https://www.hotelclub.com/book/tripDetails?execution=e1s2=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Edit|TagName:=INPUT|Id:=1ae8e477886066e9c0a7f65e0f1b3111|Name:=models[&apos;travelersInput&apos;].travelers[0].phoneNumber.phoneNumber|#FILTER#|LabeledBy:=*Phone number (We only call if an issue comes up with the reservation.) |Type:=SINGLELINE|ControlDefinition:=name=&quot;models[&apos;travelersInput&apos;].travelers|TagInstance:=13</value>
+ </data>
+ <data name="UIActualnightlyratesSaPane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=resultsRightRail|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Colombo|AbsolutePath:=/shop/hotelsearch|PageUrl:=http://www.hotelclub.com/shop/hotelsearch?type=hotel&amp;hotel.type=keyword&amp;hotel.fid=&amp;hotel.coord=&amp;hotel.keyword.key=Colombo%2C+Sri+Lanka&amp;hotel.locId=loc.id%3A30265&amp;hotel.chkin=12%2F12%2F15&amp;hotel.chkout=25%2F12%2F15&amp;hotel.rooms%5B0%5D.adlts=2&amp;hotel.rooms%5B0%5D.chlds=0&amp;hotel.rooms%5B0%5D.chldAge%5B0%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B1%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B2%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B3%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B4%5D=&amp;hotel.rating=&amp;hotel.hname=&amp;hotel.couponCode=&amp;search=Search&amp;hsv.showDetails=true&amp;hotel.hid=339929&amp;hotel.hkey=339929_null_null_null_A2:0=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=main|#FILTER#|InnerText:=Hotel Overview    Guest Reviews (5)     |ControlDefinition:=id=&quot;main&quot; data-context=&quot;main&quot;|TagInstance:=36=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|#FILTER#|InnerText:=Actual nightly rates      Sat    Sun|Class:=nightlyRateSection|ControlDefinition:=class=&quot;nightlyRateSection&quot;|TagInstance:=91</value>
+ </data>
+ <data name="UIFindCheapHotelsAccomDocument" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=home|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Find Cheap Hotels &amp; Accommodation Deals with HotelClub.com|AbsolutePath:=/|PageUrl:=http://www.hotelclub.com/</value>
+ </data>
+ <data name="UIRamadaColomboCheckinPane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=From US$112 : Ramada Colombo - HotelClub|AbsolutePath:=/book/bookingpath|PageUrl:=https://www.hotelclub.com/book/bookingpath?execution=e1s1=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=main|#FILTER#|InnerText:=Back to search results             Gr|ControlDefinition:=id=&quot;main&quot; data-context=&quot;main&quot;|TagInstance:=22=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|#FILTER#|InnerText:=Ramada Colombo       Check-in: Sat,12 D|Class:=titleBar|ControlDefinition:=class=&quot;titleBar&quot; data-context=&quot;hotelResultItemTitleBar&quot;|TagInstance:=38</value>
+ </data>
+ <data name="UIPreMainPane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=www.hotelclub.com - Traveller information|AbsolutePath:=/book/tripDetails|PageUrl:=https://www.hotelclub.com/book/tripDetails?execution=e1s2=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=preMain|#FILTER#|InnerText:=*required item      CHECKOUT - Traveller|ControlDefinition:=id=&quot;preMain&quot; data-context=&quot;bookingPreMain&quot;|TagInstance:=14</value>
+ </data>
+ <data name="UIColomboDocument" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=resultsRightRail|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Colombo|AbsolutePath:=/shop/hotelsearch|PageUrl:=http://www.hotelclub.com/shop/hotelsearch?type=hotel&amp;hotel.type=keyword&amp;hotel.fid=&amp;hotel.coord=&amp;hotel.keyword.key=Colombo%2C+Sri+Lanka&amp;hotel.locId=loc.id%3A30265&amp;hotel.chkin=12%2F12%2F15&amp;hotel.chkout=25%2F12%2F15&amp;hotel.rooms%5B0%5D.adlts=2&amp;hotel.rooms%5B0%5D.chlds=0&amp;hotel.rooms%5B0%5D.chldAge%5B0%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B1%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B2%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B3%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B4%5D=&amp;hotel.rating=&amp;hotel.hname=&amp;hotel.couponCode=&amp;search=Search&amp;hsv.showDetails=true&amp;hotel.hid=339929&amp;hotel.hkey=339929_null_null_null_A2:0</value>
+ </data>
+ <data name="UISigninoptionalSigninPane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=www.hotelclub.com - Traveller information|AbsolutePath:=/book/tripDetails|PageUrl:=https://www.hotelclub.com/book/tripDetails?execution=e1s2=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=preMain|#FILTER#|InnerText:=*required item      CHECKOUT - Traveller|ControlDefinition:=id=&quot;preMain&quot; data-context=&quot;bookingPreMain&quot;|TagInstance:=14=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|#FILTER#|InnerText:=Sign in (optional)    Sign in to earn a|Class:=notSignedIn|ControlDefinition:=class=&quot;notSignedIn&quot;|TagInstance:=22</value>
+ </data>
+ <data name="UIMainPane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=From US$112 : Ramada Colombo - HotelClub|AbsolutePath:=/book/bookingpath|PageUrl:=https://www.hotelclub.com/book/bookingpath?execution=e1s1=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=main|#FILTER#|InnerText:=Back to search results             Gr|ControlDefinition:=id=&quot;main&quot; data-context=&quot;main&quot;|TagInstance:=22</value>
+ </data>
+ <data name="UIDealslikethesegofastPane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=From US$112 : Ramada Colombo - HotelClub|AbsolutePath:=/book/bookingpath|PageUrl:=https://www.hotelclub.com/book/bookingpath?execution=e1s1=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=main|#FILTER#|InnerText:=Back to search results             Gr|ControlDefinition:=id=&quot;main&quot; data-context=&quot;main&quot;|TagInstance:=22=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|#FILTER#|InnerText:=Deals like these go fast, book now! |Class:=alert alert-info|ControlDefinition:=class=&quot;alert alert-info&quot; data-context=&quot;hotelUrgencyBookingMessage&quot;|TagInstance:=29</value>
+ </data>
+ <data name="UISearchButton" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=home|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Find Cheap Hotels &amp; Accommodation Deals with HotelClub.com|AbsolutePath:=/|PageUrl:=http://www.hotelclub.com/=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Button|TagName:=INPUT|Name:=search|DisplayText:=Search|Type:=submit|#FILTER#||ControlDefinition:=name=&quot;search&quot; type=&quot;submit&quot; value=&quot;Searc|TagInstance:=11</value>
+ </data>
+ <data name="UIInterBodyPane" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=resultsRightRail|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Colombo|AbsolutePath:=/shop/hotelsearch|PageUrl:=http://www.hotelclub.com/shop/hotelsearch?type=hotel&amp;hotel.type=keyword&amp;hotel.fid=&amp;hotel.coord=&amp;hotel.keyword.key=Colombo%2C+Sri+Lanka&amp;hotel.locId=loc.id%3A30265&amp;hotel.chkin=12%2F12%2F15&amp;hotel.chkout=25%2F12%2F15&amp;hotel.rooms%5B0%5D.adlts=2&amp;hotel.rooms%5B0%5D.chlds=0&amp;hotel.rooms%5B0%5D.chldAge%5B0%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B1%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B2%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B3%5D=&amp;hotel.rooms%5B0%5D.chldAge%5B4%5D=&amp;hotel.rating=&amp;hotel.hname=&amp;hotel.couponCode=&amp;search=Search&amp;hsv.showDetails=true&amp;hotel.hid=339929&amp;hotel.hkey=339929_null_null_null_A2:0=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Pane|TagName:=DIV|Id:=interBody|#FILTER#|InnerText:=&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;   Working...   Please wai|Class:=interstitialA|ControlDefinition:=class=&quot;interstitialA&quot; id=&quot;interBody&quot;|TagInstance:=524</value>
+ </data>
+ <data name="UIFromUS112RamadaColomDocument" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=From US$112 : Ramada Colombo - HotelClub|AbsolutePath:=/book/bookingpath|PageUrl:=https://www.hotelclub.com/book/bookingpath?execution=e1s1</value>
+ </data>
+ <data name="UIFirstgivennameEdit" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=www.hotelclub.com - Traveller information|AbsolutePath:=/book/tripDetails|PageUrl:=https://www.hotelclub.com/book/tripDetails?execution=e1s2=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Edit|TagName:=INPUT|Id:=391cef4fca348b33a9c8cc4b6bb7c42f|Name:=models[&apos;travelersInput&apos;].travelers[0].name.firstName|#FILTER#|LabeledBy:=*First/given name |Type:=SINGLELINE|ControlDefinition:=name=&quot;models[&apos;travelersInput&apos;].travelers|TagInstance:=11</value>
+ </data>
+ <data name="UIContinuebookingButton" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=www.hotelclub.com - Traveller information|AbsolutePath:=/book/tripDetails|PageUrl:=https://www.hotelclub.com/book/tripDetails?execution=e1s2=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Button|TagName:=INPUT|Name:=_eventId_submit|DisplayText:=Continue booking|Type:=submit|#FILTER#||ControlDefinition:=name=&quot;_eventId_submit&quot; type=&quot;submit&quot; val|TagInstance:=27</value>
+ </data>
+ <data name="UICheckoutddmmyyEdit" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=home|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=Find Cheap Hotels &amp; Accommodation Deals with HotelClub.com|AbsolutePath:=/|PageUrl:=http://www.hotelclub.com/=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Edit|TagName:=INPUT|Id:=aa81697fc92e7ac607b4b38dc5393a04|Name:=hotel.chkout|#FILTER#|LabeledBy:=Check-out(dd/mm/yy) |Type:=SINGLELINE|ControlDefinition:=name=&quot;hotel.chkout&quot; id=&quot;aa81697fc92e7ac6|TagInstance:=10</value>
+ </data>
+ <data name="UIContinueButton" xml:space="preserve">
+  <value>Object:=BrowserWindow=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Document|TagName:=BODY|Id:=booking|RedirectingPage:=False|FrameDocument:=False|#FILTER#|Title:=From US$112 : Ramada Colombo - HotelClub|AbsolutePath:=/book/bookingpath|PageUrl:=https://www.hotelclub.com/book/bookingpath?execution=e1s1=&gt;Object:=UITestControl|TechnologyName:=Web|ControlType:=Button|TagName:=INPUT|Name:=_eventId_checkout|DisplayText:=Continue|Type:=submit|#FILTER#||ControlDefinition:=name=&quot;_eventId_checkout&quot; type=&quot;submit&quot; v|TagInstance:=3</value>
+ </data>
+ </root>

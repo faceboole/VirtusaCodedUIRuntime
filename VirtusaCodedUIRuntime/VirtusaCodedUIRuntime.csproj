@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  
+    <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{701C228C-4493-4B0C-82B9-89148955FD8F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VirtusaCodedUIRuntime</RootNamespace>
+    <AssemblyName>VirtusaCodedUIRuntime</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+  	
+  	<Reference Include="Microsoft.Office.Interop.Word">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+	</Reference>
+    
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.StringTemplate, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\Antlr3.StringTemplate.dll</HintPath>
+    </Reference>
+    <Reference Include="AspectDotNet, Version=1.0.4898.31059, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Weaver\AspectDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Gallio, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\Gallio.dll</HintPath>
+    </Reference>
+    <Reference Include="InputSimulator, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\InputSimulator.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MbUnit, Version=3.4.0.0, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\MbUnit.dll</HintPath>
+    </Reference>
+    <Reference Include="MSTestHacks">
+      <HintPath>Libraries\MSTestHacks.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Libraries\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver">
+      <HintPath>Libraries\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support">
+      <HintPath>Libraries\WebDriver.Support.dll</HintPath>
+    </Reference> 
+    <Reference Include="MySql.Data">
+      <HintPath>Libraries\MySql.Data.dll</HintPath>
+    </Reference>   
+    
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" /> 
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITesting">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+<ItemGroup>
+
+    <Compile Include="Aspects\AsepctClass.cs">
+    </Compile>    
+    <Compile Include="Aspects\VTAFRecoveryMethods.cs">
+    </Compile>    
+    <Compile Include="CodedUIRuntime\CodedUITestBase.cs">
+    </Compile>    
+    <Compile Include="CodedUIRuntime\MbUnitHelper.cs">
+    </Compile>    
+    <Compile Include="CodedUIRuntime\MbUnitHelperSuper.cs">
+    </Compile>    
+    <Compile Include="CodedUIRuntime\ObjectLocator.cs">
+    </Compile>    
+    <Compile Include="CodedUIRuntime\XmlManager.cs">
+    </Compile>    
+    <Compile Include="DataReader\DataTable.cs">
+    </Compile>    
+    <Compile Include="DataReader\DataTableParser.cs">
+    </Compile>    
+    <Compile Include="DataReader\IDataTableParser.cs">
+    </Compile>    
+    <Compile Include="ObjectMap\IGetObjectPath.cs">
+    </Compile>    
+    <Compile Include="ObjectMap\ObjectMapParser.cs">
+    </Compile>    
+    <Compile Include="Report\Exporter\Generator.cs">
+    </Compile>    
+    <Compile Include="Report\Model\TestCase.cs">
+    </Compile>    
+    <Compile Include="Report\Model\TestExecution.cs">
+    </Compile>    
+    <Compile Include="Report\Model\TestStep.cs">
+    </Compile>    
+    <Compile Include="Report\Model\TestSuite.cs">
+    </Compile>    
+    <Compile Include="Report\Reporter\IReporter.cs">
+    </Compile>    
+    <Compile Include="Report\Reporter\ReportBuilder.cs">
+    </Compile>    
+    <Compile Include="Report\Reporter\Reporter.cs">
+    </Compile>    
+    <Compile Include="Utils\Extensions.cs">
+    </Compile>    
+    <Compile Include="Utils\KeyCodes.cs">
+    </Compile>    
+    <Compile Include="Utils\PropertyHandler.cs">
+    </Compile>    
+    <Compile Include="Utils\SettingsCodedUITests.cs">
+    </Compile>    
+    <Compile Include="Test\DataDrivenTestCase1.cs">
+    </Compile>    
+    <Compile Include="Test\NonDataDrivenTestCase1.cs">
+    </Compile>    
+    <Compile Include="BusinessComponents\Common.cs">
+    </Compile>    
+	<Compile Include="Pages\codedUIPage.Designer.cs">
+		<DependentUpon>codedUIPage.resx</DependentUpon>
+      	<AutoGen>True</AutoGen>
+      	<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      	<DesignTime>True</DesignTime>
+      	<id>21349184-8ed4-49a1-ac55-d8cfc15a7af8</id>
+      	<BoundTo>3370518a-8614-4b51-a555-845ef4eb53fd</BoundTo>
+    </Compile>
+	<Compile Include="Execution.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Execution.settings</DependentUpon>
+      <id>ce8239fe-8e45-494d-b251-d4a470faefa6</id>
+      <BoundTo>d020fa83-47bf-4ed3-99a3-be1a1f19ddd7</BoundTo>
+    </Compile>
+	<Compile Include="ProjectData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>ProjectData.settings</DependentUpon>
+      <id>ce8239fe-8e45-494d-b251-d4a470faefa6</id>
+      <BoundTo>d020fa83-47bf-4ed3-99a3-be1a1f19ddd7</BoundTo>
+    </Compile>
+	<None Include="app.config">
+      <id>a462dc88-8c62-43c5-9625-894c66cd088c</id>
+      <SubType>Designer</SubType>
+    </None>
+	<None Include="Execution.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Execution.Designer.cs</LastGenOutput>
+      <id>d020fa83-47bf-4ed3-99a3-be1a1f19ddd7</id>
+    </None>
+	<None Include="ProjectData.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>ProjectData.Designer.cs</LastGenOutput>
+      <id>d020fa83-47bf-4ed3-99a3-be1a1f19ddd7</id>
+    </None>
+	<Content Include="Libraries\Antlr3.Runtime.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\Antlr3.StringTemplate.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\AspectDotNet.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\ExecutableFiles\Chrome\Linux32\chromedriver">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\ExecutableFiles\Chrome\Linux64\chromedriver">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\ExecutableFiles\Chrome\Mac\chromedriver">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\ExecutableFiles\Chrome\Windows\chromedriver.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\ExecutableFiles\InternetExplorer\IEDriver64\IEDriverServer.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\ExecutableFiles\InternetExplorer\IEDriver86\IEDriverServer.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\Gallio.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\InputSimulator.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\log4net.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\MbUnit.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\MSTestHacks.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\MySql.Data.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\Newtonsoft.Json.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\Report.stg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\WebDriver.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	<Content Include="Libraries\WebDriver.Support.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+</ItemGroup>
+
+<ItemGroup>
+	
+	<EmbeddedResource Include="Pages\codedUIPage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>codedUIPage.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>3370518a-8614-4b51-a555-845ef4eb53fd</id>
+    </EmbeddedResource>
+
+</ItemGroup>
+<ItemGroup>
+<Folder Include="DataTables" />
+
+</ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  
+  <PropertyGroup>
+    <PostBuildEvent>set TargetAssemblyDir=..\..\bin\Debug
+set TargetAssembly=VirtusaCodedUIRuntime
+set TargetAssemblyExt=.dll
+set AspectDotNetDir=..\..\Weaver
+
+%25AspectDotNetDir%25\make.bat "$(TargetPath)"
+
+
+</PostBuildEvent>
+  </PropertyGroup>
+  
+</Project>

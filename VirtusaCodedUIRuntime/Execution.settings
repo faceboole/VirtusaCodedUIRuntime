@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Settings" GeneratedClassName="Execution">
+  <Profiles />
+  <Settings>
+    <Setting Name="BROWSER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">*iexplore</Value>
+    </Setting>
+    <Setting Name="RETRY_INTERVAL" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="RETRY" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

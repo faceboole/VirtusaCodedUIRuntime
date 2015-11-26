@@ -1,0 +1,20 @@
+<DataTables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="file://C:/VTAF/base-qa-3.0.6.1/vtaf/vtaf-ui/xsd/DataTables.xsd" >
+	<Table name="SearchDataTable">
+		<Header>
+			<Column name="Identifier" type="String" />
+			<Column name="FName" type="String" />
+			<Column name="LName" type="String" />
+			<Column name="PhoneNo" type="String" />
+		</Header>
+		<Row>
+			<Value>Mr.</Value>
+			<Value>Samana</Value>
+			<Value>Kumara</Value>
+			<Value>01225899977</Value>
+		</Row>
+
+</Table>
+
+
+</DataTables>
